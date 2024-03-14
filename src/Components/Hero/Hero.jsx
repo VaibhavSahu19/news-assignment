@@ -5,11 +5,11 @@ import { NewsCard } from './NewsCard';
 export const Hero = () => {
   const [error, setError] = useState(false);
   const [newsArr, setNewsArr] = useState([]);
-  const [refresh, setRefresh] = useState(true);
+  const [refresh, setRefresh] = useState(false);
 
   async function getNews() {
-    const apiKey = '7e700a57a59d4bbb9ec8db0fd2894411';
-    const apiUrl = 'https://newsapi.org/v2/everything?q=tesla&from=2024-02-13&sortBy=publishedAt&apiKey=7e700a57a59d4bbb9ec8db0fd2894411';
+    const apiKey = '';
+    const apiUrl = `https://newsapi.org/v2/everything?q=keyword&apiKey=${apiKey}`;
 
     //fetches data from url
     try {
