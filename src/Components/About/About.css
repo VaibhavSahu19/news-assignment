@@ -1,0 +1,46 @@
+.about-container{
+    background-color: maroon;
+    color: #f2f2f2;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.about-title, .about-headline{
+    font-size: 20px;
+    align-self: center;
+    margin: 10px;
+}
+
+.about-title{
+    font-size: 30px;
+}
+
+.about-content{
+    margin: 5px;
+    font-size: 22px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact a{
+    font-size: 30px;
+    margin: 20px;
+    color: maroon;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.contact a:hover{
+    background-color: rgb(199, 197, 197);
+}

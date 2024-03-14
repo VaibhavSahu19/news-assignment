@@ -1,0 +1,9 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/* The below css property comes into use when the 'About' button is clicked. It will take the user to the About section and to make it look smooth, the scroll-behavior property is used. */
+html{
+    scroll-behavior: smooth;
+}
